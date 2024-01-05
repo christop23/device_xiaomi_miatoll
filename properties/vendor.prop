@@ -177,6 +177,11 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # Incremental FS
 ro.incremental.enable=true
 
+# SkiaGL Threaded
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
+renderthread.skia.reduceopstasksplitting=true
+
 # Graphics
 debug.sf.auto_latch_unsignaled=0
 debug.sf.enable_transaction_tracing=false
