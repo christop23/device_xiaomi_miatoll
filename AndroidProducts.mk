@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_miatoll.mk
+    $(LOCAL_DIR)/ultimate_miatoll.mk
