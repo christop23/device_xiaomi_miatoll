@@ -120,6 +120,9 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
+# MIUI Camera
+-include vendor/xiaomi/miuicamera/BoardConfigMiuiCamera.mk
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
 
@@ -180,7 +183,7 @@ VENDOR_SECURITY_PATCH := 2023-05-01
 # Sepolicy
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
--include vendor/xiaomi/miuicamera/SEPolicy.mk
+
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
