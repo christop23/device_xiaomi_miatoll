@@ -190,6 +190,13 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
+    <!-- Device configuration indicating whether we should avoid using accelerated graphics
+         in certain places to reduce RAM footprint.  This is ignored if ro.config.low_ram
+         is true (in that case this is assumed true as well).  It can allow you to tune down
+         your device's memory use without going to the point of causing applications to turn
+         off features. -->
+    <bool name="config_avoidGfxAccel">true</bool>
+
     <!-- List of biometric sensors on the device, in decreasing strength. Consumed by AuthService
          when registering authenticators with BiometricService. Format must be ID:Modality:Strength,
          where: IDs are unique per device, Modality as defined in BiometricAuthenticator.java,
