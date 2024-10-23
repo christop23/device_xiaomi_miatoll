@@ -120,9 +120,6 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
 
-# MIUI Camera
--include vendor/xiaomi/miuicamera/BoardConfigMiuiCamera.mk
-
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
 
