@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_miatoll.mk
+    $(LOCAL_DIR)/lineage_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_miatoll-ap2a-user \
-    voltage_miatoll-ap2a-userdebug \
-    voltage_miatoll-ap2a-eng
+    lineage_miatoll-user \
+    lineage_miatoll-userdebug \
+    lineage_miatoll-eng
