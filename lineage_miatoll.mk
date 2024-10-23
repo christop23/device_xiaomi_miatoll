@@ -18,12 +18,6 @@ $(call inherit-product, device/xiaomi/miatoll/miatoll.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Sakura stuff
-SAKURA_OFFICIAL := true
-SAKURA_MAINTAINER := orionphoenix
-TARGET_BOOT_ANIMATION_RES := 1080
-SAKURA_BUILD_TYPE := vanilla
-
 PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_MANUFACTURER := Xiaomi
